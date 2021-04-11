@@ -1,0 +1,44 @@
+*{
+    /border: 1px solid green;
+}
+body{
+    font-family: "Bookman Old Style";
+    text-align:center;
+}
+.up ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 5vh;
+}
+
+.up ul li{
+    font-size: 20px;
+    border: 0.2px solid black ;
+    border-radius: 10px;
+    padding:5px;
+    background-color: lightgrey;
+}
+
+.bottom ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom ul li{
+    font-size: 20px;
+    padding-bottom: 10vh;
+    
+}
+
+body button {
+    margin-top: 5vh;
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
